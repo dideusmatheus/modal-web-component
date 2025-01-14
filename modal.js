@@ -71,6 +71,32 @@ class Modal extends HTMLElement {
                     margin: 0 0.25rem;
                 }
 
+                #cancel-btn {
+                    background-color: #f8d7da;
+                    border: 1px solid #f5c2c7;
+                    color: #842029;
+                    padding: 0.5rem 1rem;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+
+                #confirm-btn {
+                    background-color: #d1e7dd;
+                    border: 1px solid #badbcc;
+                    color: #0f5132;
+                    padding: 0.5rem 1rem;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+
+                #cancel-btn:hover {
+                    background-color: #f5c2c7;
+                }
+
+                #confirm-btn:hover {
+                    background-color: #badbcc;
+                }
+
             </style>
 
             <div id="backdrop"></div>

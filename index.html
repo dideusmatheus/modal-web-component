@@ -13,6 +13,19 @@
             margin: 2rem;
             font-family: sans-serif;
         }
+
+        .show-details-btn{
+            background-color: #cfe2ff; /* Azul claro */
+            border: 1px solid #b6d4fe;
+            color: #084298;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .show-details-btn:hover {
+            background-color: #b6d4fe;
+        }
     </style>
     <script src="modal.js"></script>
 </head>
@@ -27,7 +40,7 @@
 
     <p>Please confirm your choice.</p>
 
-    <button>Show Details & Confirm</button>
+    <button class="show-details-btn">Show Details & Confirm</button>
 
     <script>
         const confirmButton = document.querySelector('button');
